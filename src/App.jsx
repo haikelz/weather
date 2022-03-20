@@ -23,7 +23,7 @@ return (
   <Box>
 
   {weather.main &&  (
-    <Flex className='weather' mt='5vh' justifyContent='center'>
+    <Flex textAlign='center' className='weather' mt='5vh' justifyContent='center'>
       <div>
         <Text fontWeight='bold'>
           <span>{weather.name}</span>
